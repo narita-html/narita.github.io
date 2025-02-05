@@ -26,9 +26,12 @@
 html, body {
 	font-family: "Helvetica Now Display", "Helvetica Neue", sans-serif;
 	font-kerning: normal;
+	border-style: none;
+}
+
+.container {
 	min-height: 90vh;
 	min-width: 90vw;
-	border-style: none;
 }
 
 /* title and nav div */
@@ -55,11 +58,11 @@ html, body {
 
 .footer {
 	border-top: none;
-	margin-top: 10px;
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 750px;
-	padding-top: 20px;
+	margin-top: 20px;
+	bottom: 0;
 }
 
 .pageTitle {
