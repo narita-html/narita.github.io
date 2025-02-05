@@ -1,30 +1,6 @@
-/*Helvetica Now Display & Text is in the fonts folder of the project folder*/
-@font-face {
-	font-family: "Helvetica Now Display";
-	src: url(fonts/HelveticaNowDisplay-Regular.otf);
-}
-
-@font-face {
-	font-family: "Helvetica Now Display";
-	font-weight: bold;
-	src: url(fonts/HelveticaNowDisplay-Bold.otf);
-}
-
-/*Helvetica Now Text preserves the look of Helvetica but makes it more legible for smaller font sizes*/
-@font-face {
-	font-family: "Helvetica Now Text";
-	src: url(fonts/HelveticaNowText-Regular.otf);
-}
-
-@font-face {
-	font-family: "Helvetica Now Text";
-	font-weight: bold;
-	src: url(fonts/HelveticaNowText-Bold.otf);
-}
-
 /*Text needs to be kerned*/
 html, body {
-	font-family: "Helvetica Now Display", "Helvetica Neue", sans-serif;
+	font-family: "EB Garamond", sans-serif;
 	font-kerning: normal;
 	border-style: none;
 }
@@ -58,7 +34,6 @@ html, body {
 	margin-left: auto;
 	max-width: 750px;
 	margin-top: 55px;
-	bottom: 0;
 }
 
 .pageTitle {
@@ -81,7 +56,6 @@ h2 {
 }
 
 h3 {
-	font-family: "Helvetica Now Text", "Helvetica Neue", sans-serif;
 	font-weight: normal;
 	font-size: 12pt;
 	text-align: center;
@@ -89,7 +63,6 @@ h3 {
 }
 
 p {
-	font-family: "Helvetica Now Text", "Helvetica Neue", sans-serif;
 	font-kerning: normal;
 	font-size: 12pt;
 	margin: 0;
@@ -108,5 +81,4 @@ a:visited {
 
 a:hover {
 	text-decoration: none;
-	font-style: italic;
 }
